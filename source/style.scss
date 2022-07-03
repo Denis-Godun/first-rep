@@ -1,0 +1,425 @@
+@import "zerostyle.scss";
+p,
+h1,
+h2 {
+  color: white;
+}
+html,
+body{
+  height: 100%;
+}
+
+.wrapper {
+  width: 1920px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrap{
+  flex: 1 1 auto;
+}
+.header {
+  &_setting {
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(200, 163, 95, 1);
+    height: 45px;
+  }
+
+  &_languages {
+    padding: 16px;
+  }
+
+  &_listen {
+    display: flex;
+    justify-content: space-between;
+    width: 82px;
+    height: 13px;
+    font-size: 12px;
+  }
+  &_phone {
+    padding: 16px;
+    width: 95px;
+    height: 13px;
+  }
+
+  &_mail {
+    padding: 16px;
+  }
+
+  &_menu {
+    background-color: rgba(47, 52, 58, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 100px;
+  }
+  &_row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 46px;
+    margin: auto;
+  }
+  &_office {
+    width: 160px;
+    height: 46px;
+    display: flex;
+    &__sign {
+      margin-right: 10px;
+    }
+
+    &__our {
+      width: 97px;
+      height: 16px;
+      padding-top: 18px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  &_general {
+    width: 160px;
+    height: 46px;
+    display: flex;
+    padding-top: 25px;
+  }
+
+  &_logo {
+    border-right: 1px solid white;
+    width: 190px;
+    height: 46px;
+    padding-right: 30px;
+    margin-right: 30px;
+  }
+
+  &_navigation {
+    margin-top: 40px;
+  }
+  &_address {
+    color: white;
+    padding-right: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+}
+
+.specialization {
+  height: 620px;
+  background-image: url(Rectangle2.png);
+  padding: 155px 500px 220px 500px;
+  &_info {
+    border: 1px solid rgba(200, 163, 95, 1);
+    width: 920px;
+    height: 245px;
+  }
+
+  &_text {
+    text-align: center;
+  }
+
+  &_mouse {
+    text-align: center;
+    margin-top: 140px;
+  }
+}
+.specialization_text {
+  &__big {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.05em;
+    margin: 45px 70px;
+  }
+  &__small {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 45px 70px;
+  }
+}
+
+.container {
+  background: rgba(47, 52, 58, 1);
+}
+.detail {
+  display: flex;
+  justify-content: space-between;
+  &_info {
+    width: 755px;
+    height: 561px;
+    background: rgba(57, 63, 71, 1);
+  }
+
+  &_line {
+    padding-top: 120px;
+    padding-left: 405px;
+  }
+
+  &_main {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-left: 405px;
+    padding-top: 40px;
+  }
+
+  &_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding-left: 405px;
+    padding-top: 30px;
+  }
+
+  &_klck {
+    padding-left: 405px;
+    padding-top: 50px;
+  }
+
+  &_button {
+    background: rgba(200, 163, 95, 1);
+    width: 220px;
+    height: 55px;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}
+.detail {
+  &_info {
+  }
+
+  &_slide {
+  }
+
+  &_next {
+    background: rgba(57, 63, 71, 1);
+    padding-top: 156px;
+    padding-left: 189px;
+  }
+
+  &_back {
+    background: rgba(57, 63, 71, 1);
+    padding-top: 245px;
+    padding-left: 189px;
+  }
+}
+.car {
+  position: absolute;
+  padding-top: 166px;
+  padding-left: 880px;
+}
+.service {
+  width: 1296px;
+  &_list {
+    margin-left: 405px;
+    margin-top: 60px;
+    width: 1110px;
+    height: 360px;
+  }
+
+  &_row {
+    width: 1110px;
+    display: flex;
+  }
+
+  &_plane {
+    padding-top: 55px;
+    padding-left: 123px;
+  }
+
+  &_name {
+    padding: 28px 42px 35px 42px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &_item {
+    margin: 1px;
+    width: 276px;
+    height: 180px;
+    background-color: #393f47;
+  }
+}
+
+.service_item {
+  &__first {
+    margin: 1px;
+    width: 276px;
+    height: 180px;
+    background-color: #c8a35f;
+  }
+}
+.main {
+  display: flex;
+  width: 1110px;
+  height: 482px;
+  margin-top: 120px;
+  margin-left: 405px;
+  &_info {
+    position: absolute;
+    width: 410px;
+    height: 482px;
+  }
+  &_logo {
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  &_line {
+    padding-top: 85px;
+  }
+  &_text {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 445px;
+    height: 179px;
+  }
+  &_gray {
+    width: 410px;
+    height: 482px;
+    background: #393f47;
+    margin-left: 350px;
+  }
+}
+.main {
+  &_list {
+    position: absolute;
+    padding-left: 510px;
+    padding-top: 90px;
+  }
+
+  &_row1 {
+    display: flex;
+  }
+
+  &_row2 {
+    display: flex;
+  }
+}
+.main_item {
+  &__stats {
+    background-color: white;
+    width: 200px;
+    height: 160px;
+    border: 0.25px solid #c8a35f;
+  }
+
+  &__car {
+    border: 0.25px solid #c8a35f;
+    width: 200px;
+    height: 160px;
+    background-image: url(Rectangle2.2.png);
+  }
+}
+.item {
+
+  &_text {
+    padding-top: 23px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+  }
+
+  &_tex {
+    padding-top: 5px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.05em;
+    color: black;
+  }
+
+  &_te {
+    padding-top: 5px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+    color: black;
+  }
+}
+.map{
+  width: 1920px;
+  height: 450px;
+  background-image: url(maps.png);
+}
+.footer {
+  height:161px;
+  width: 1920px;
+background: rgba(200, 163, 95, 1);
+display:flex;
+  &_logo {
+    padding-left: 405px;
+    padding-top: 60px;
+  }
+
+  &_location {
+    padding-top: 65px;
+    padding-left: 30px;
+  }
+
+  &_sity {
+    font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+  }
+
+  &_mail {
+    color: #393f47;
+    padding-top: 10px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+  }
+
+  &_contacts {
+    padding-top: 65px;
+    padding-left: 90px;
+  }
+
+  &_phone {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+    padding-bottom: 10px;
+  }
+
+  &_developer {
+    padding-left: 250px;
+    padding-top: 88px;
+  }
+
+  &_develop {
+    color: #393f47;
+    font-size: 14px;
+line-height: 16px;
+text-decoration-line: underline;
+  }
+}
+
